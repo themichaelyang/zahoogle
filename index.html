@@ -10,7 +10,7 @@
 </head>
 <body>
   <div id="search" class="search">
-    <img src="/images/logo.png" class="logo">
+    <img src="images/logo.png" class="logo">
     <input class="search-input">
     <div class="buttons">
       <button id="submit" class="search-button button-left">Zahoogle Search</button>
@@ -22,11 +22,11 @@
 
   window.onload = function() {
     document.getElementById('submit').addEventListener('click', function(event) {
-      loadImage('/images/' + (Math.floor(Math.random() * 7) + 1) + '.jpg')
+      loadImage('images/' + (Math.floor(Math.random() * 7) + 1) + '.jpg')
     })
 
     document.getElementById('lucky').addEventListener('click', function(event) {
-      loadImage('/images/lucky.jpg')
+      loadImage('images/lucky.jpg')
     })
   }
 
